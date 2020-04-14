@@ -2555,6 +2555,11 @@ input, select, textarea {
 
 	.work-item {
 		margin: 0 0 2em 0;
+		/* height: 250px; */
+		/* height: 200px;
+			width: 400px; */
+						object-fit: fill;
+
 	}
 
 		.work-item .image {
