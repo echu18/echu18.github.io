@@ -5,80 +5,85 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Jamie Elizabeth Chu</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+
+<head>
+	<title>Jamie Elizabeth Chu</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
 
 
 
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163702049-2"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag() { dataLayer.push(arguments); }
-			gtag('js', new Date());
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163702049-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
 
-			gtag('config', 'UA-163702049-2');
-		</script>
-	</head>
-	<body class="is-preload">
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/profile.png" alt="" /></a>
-					<h1><strong>I'm Jamie</strong>, a software engineer.<br /></h1>
-					<!-- crafted by <a href="http://html5up.net">HTML5 UP</a>. -->
-				</div>
+		gtag('config', 'UA-163702049-2');
+	</script>
+</head>
+
+<body class="is-preload">
+
+	<!-- Header -->
+	<header id="header">
+		<div class="inner">
+			<a href="#" class="image avatar"><img src="images/profile.png" alt="" /></a>
+			<h1><strong>I'm Jamie</strong>, a software engineer.<br /></h1>
+			<!-- crafted by <a href="http://html5up.net">HTML5 UP</a>. -->
+		</div>
+	</header>
+
+	<!-- Main -->
+
+	<div id="main">
+
+		<!-- One -->
+		<section id="one">
+			<header class="major">
+				<h2>About Me<br /></h2>
 			</header>
+			<p>Born in the Bay Area and raised in Beijing and the NorCal foothills, I can say that I'm pretty lucky to have lived on
+				both sides of the world. I studied business at Cal State Fullerton, and after graduating, worked in marketing in Los Angeles. Along the way,
+				a growing interest in coding led me to switch paths into software development. <br /><br />
 
-		<!-- Main -->
-		
-			<div id="main">
-					
-				<!-- One -->
-					<section id="one">
-						<header class="major">
-							<h2>About Me<br/></h2>
-						</header>
-						<p>Born in the Bay Area and raised in Beijing and the NorCal foothills, I can say that I'm pretty lucky to have lived on
-						both sides of the world. I studied business at Cal State Fullerton, and after graduating, worked in marketing in Los Angeles. Along the way,
-						a growing interest in coding led me to switch paths into software development. <br/><br/>
-						
-						I currently reside in San Francsico. In my free time, I enjoy playing video games, making music,<br />
-						learning new things, and exploring the outdoors.</p>
-						<!-- <ul class="actions">
+				I currently reside in San Francsico. In my free time, I enjoy playing video games, making music,<br />
+				learning new things, and exploring the outdoors.</p>
+			<!-- <ul class="actions">
 							<li><a href="#" class="button">Learn More</a></li>
 						</ul> -->
-					</section>
+		</section>
 
-				<!-- Two -->
-					<section id="two">
-						<h2>Recent Work</h2>
-						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/memesy-home.png" class="image fit thumb"><img src="images/projects/memesy-home.jpg" alt="" /></a>
-								<h3>Memesy</h3>
-								<p>Memesy is a meme-themed clone of the e-commerce site Etsy, built with Rails, PostgreSQL, and React</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/lazy-date-result.png" class="image fit thumb"><img src="images/projects/lazy-date-result.jpg" alt="" /></a>
-								<h3>LazyDate</h3>
-								<p>LazyDate is a web app that generates dates ideas and built using the MERN stack and Yelp API</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/pixel-dog-park.png" class="image fit thumb"><img src="images/projects/pixel-dog-park.png" alt="" /></a>
-								<h3>Pixel Dog Park</h3>
-								<p>Pixel Dog Park is an interactive 3D pixel dog built using JavaScript and the Three.js library</p>
-							</article>
-							<!-- <article class="col-6 col-12-xsmall work-item">
+		<!-- Two -->
+		<section id="two">
+			<h2>Recent Work</h2>
+			<div class="row">
+				<article class="col-6 col-12-xsmall work-item">
+					<a href="images/fulls/memesy-home.png" class="image fit thumb"><img src="images/projects/memesy-home.jpg" alt="" /></a>
+					<h3>Memesy</h3>
+					<p>Memesy is a meme-themed clone of the e-commerce site Etsy, built with Rails, PostgreSQL, and React</p>
+				</article>
+				<article class="col-6 col-12-xsmall work-item">
+					<a href="images/fulls/lazy-date-result.png" class="image fit thumb"><img src="images/projects/lazy-date-result.jpg" alt="" /></a>
+					<h3>LazyDate</h3>
+					<p>LazyDate is a web app that generates dates ideas and built using the MERN stack and Yelp API</p>
+				</article>
+				<article class="col-6 col-12-xsmall work-item">
+					<a href="images/fulls/pixel-dog-park.png" class="image fit thumb"><img src="images/projects/pixel-dog-park.png" alt="" /></a>
+					<h3>Pixel Dog Park</h3>
+					<p>Pixel Dog Park is an interactive 3D pixel dog built using JavaScript and the Three.js library</p>
+				</article>
+				<!-- <article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
 								<h3>Quam neque phasellus</h3>
 								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 							</article> -->
-							<!-- <article class="col-6 col-12-xsmall work-item">
+				<!-- <article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
 								<h3>Nunc enim commodo aliquet</h3>
 								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
@@ -88,52 +93,53 @@
 								<h3>Risus ornare lacinia</h3>
 								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 							</article> -->
-						</div>
-						<!-- <ul class="actions">
+			</div>
+			<!-- <ul class="actions">
 							<li><a href="#" class="button">Full Portfolio</a></li>
 						</ul> -->
-					</section>
+		</section>
 
-				<!-- Three -->
-					<section id="three">
-						<h2>Get In Touch</h2>
-						<p>Please kindly contact me with one of the methods below. I look forward to hearing from you!</p>
-						<div class="row">
-							<div class="col-8 col-12-small">
-								<form method="post" action="#">
-									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-									</div>
-								</form>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</div>
-							<div class="col-4 col-12-small">
-								<ul class="labeled-icons">
-									<li>
-										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-										San Francisco <br />
-										<!-- • Beijing <br />
-										• Los Angeles<br/> -->
-									</li>
-									<li>
-										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-										(714) 681 - 2042
-									</li>
-									<li>
-										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-										<a href="#">elizabethchu18@gmail.com</a>
-									</li>
-								</ul>
-							</div>
+		<!-- Three -->
+		<section id="three">
+			<h2>Get In Touch</h2>
+			<p>Please kindly contact me with one of the methods below. I look forward to hearing from you!</p>
+			<div class="row">
+				<div class="col-8 col-12-small">
+					<form method="post" action="message_form.php">
+						<div class="row gtr-uniform gtr-50">
+							<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+							<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+							<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
 						</div>
-					</section>
+						<br />
+						<input type="submit" name='sendemail' value="Send Message" />
+					</form>
+					<!-- <ul class="actions">
+								</ul> -->
+				</div>
+				<div class="col-4 col-12-small">
+					<ul class="labeled-icons">
+						<li>
+							<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+							San Francisco <br />
+							<!-- • Beijing <br />
+										• Los Angeles<br/> -->
+						</li>
+						<li>
+							<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+							(714) 681 - 2042
+						</li>
+						<li>
+							<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+							<a href="#">elizabethchu18@gmail.com</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
 
-				<!-- Four -->
-				<!-- 
+		<!-- Four -->
+		<!-- 
 					<section id="four">
 						<h2>Elements</h2>
 
@@ -453,27 +459,29 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			</div>
 
 		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/echu18" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-						<li><a href="https:/www.github.com/echu18" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
-						<li><a href="mailto:elizabethchu18@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Jamie Elizabeth Chu</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
+		<footer id="footer">
+			<div class="inner">
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/echu18" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+					<li><a href="https:/www.github.com/echu18" class="icon brands fa-github"><span class="label">Github</span></a></li>
+					<!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+					<li><a href="mailto:elizabethchu18@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Jamie Elizabeth Chu</li>
+					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</footer>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.poptrox.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
-	</body>
+</body>
+
 </html>
