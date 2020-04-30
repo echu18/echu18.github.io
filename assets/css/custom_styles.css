@@ -1,0 +1,5 @@
+.project-link:hover {
+    cursor: pointer;
+    color: tomato;
+    transition: color 0.3s ease-in-out;
+}
