@@ -1,0 +1,1 @@
+{"version":3,"sources":["../sass/custom.scss","custom.css"],"names":[],"mappings":"AAAA;EACE,eAAA;ACCF","file":"custom.css","sourcesContent":[".section-heading {\n  font-size: 48px;\n}",".section-heading {\n  font-size: 48px;\n}"]}

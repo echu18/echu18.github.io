@@ -1050,11 +1050,6 @@ $size-header-pad: 4em;
 			margin: 0 0 (_size(element-margin) * 0.75) 0;
 		}
 
-		h3 {
-			font-size: 1em;
-			margin: 0 0 (_size(element-margin) * 0.25) 0;
-		}
-
 		p {
 			font-size: 0.8em;
 			line-height: 1.5em;
@@ -1645,6 +1640,7 @@ $size-header-pad: 4em;
 	}
 }
 
+.project-link,
 .project-link a {
 	font-size: 24px;
 }
@@ -1661,4 +1657,8 @@ $size-header-pad: 4em;
 		height: 100px;
 		width: 100px;
 	}
+}
+
+a {
+	text-decoration: none;
 }

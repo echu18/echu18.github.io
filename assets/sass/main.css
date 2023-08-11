@@ -2223,11 +2223,6 @@ input[type="button"]:disabled,
   margin: 0 0 1.5em 0;
 }
 
-.work-item h3 {
-  font-size: 1em;
-  margin: 0 0 0.5em 0;
-}
-
 .work-item p {
   font-size: 0.8em;
   line-height: 1.5em;
@@ -2821,6 +2816,7 @@ body.is-touch .poptrox-popup .closer {
   object-fit: fit;
 }
 
+.project-link,
 .project-link a {
   font-size: 24px;
 }
@@ -2836,4 +2832,8 @@ body.is-touch .poptrox-popup .closer {
 #skills img {
   height: 100px;
   width: 100px;
+}
+
+a {
+  text-decoration: none;
 }
